@@ -1,0 +1,14 @@
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	quotepath = false
+	excludesfile = /Users/dharmesh/.gitignore_global
+[user]
+	email = dmmalam@gmail.com
+	name = Dharmesh Malam
+[alias]
+	co = checkout
+[github]
+	user = dharmesh
