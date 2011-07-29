@@ -15,7 +15,11 @@ Install
 This works by symlinking each file into ~
 
 * Clone repo
-** git clone git://github.com/dmmalam/dotfiles.git
+> git clone git://github.com/dmmalam/dotfiles.git
 
 * Run install
-** ./install.sh
+> ./install.sh
+
+License
+-------
+MIT
