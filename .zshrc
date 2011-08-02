@@ -26,9 +26,7 @@ plugins=(most natural-4000 ant brew bundler cake cap extract gem git-flow git gi
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=~/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin
-
- [[ -s "/Users/dharmesh/.rvm/scripts/rvm" ]] && source "/Users/dharmesh/.rvm/scripts/rvm"  # This loads RVM into a shell session.
+export PATH=~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
 
 # Alias
 
@@ -92,3 +90,6 @@ alias start-postgres='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgr
 
 #And stop with:
 alias stop-postgres='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
+
+# This loads RVM into a shell session.
+[[ -s "/Users/dharmesh/.rvm/scripts/rvm" ]] && source "/Users/dharmesh/.rvm/scripts/rvm"
