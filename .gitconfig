@@ -4,11 +4,11 @@
 	branch = auto
 [core]
 	quotepath = false
-	excludesfile = /Users/dharmesh/.gitignore_global
+	excludesfile = /Users/rik1shah/.gitignore_global
 [user]
-	email = dmmalam@gmail.com
-	name = Dharmesh Malam
+	email = rik1shah@gmail.com
+	name = Rikin Shah
 [alias]
 	co = checkout
 [github]
-	user = dharmesh
+	user = rik1shah

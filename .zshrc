@@ -21,7 +21,7 @@ ZSH_THEME="robbyrussell"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(most natural-4000 ant brew bundler cake cap extract gem git-flow git github node npm osx perl pip pow rails3 redis-cli ruby rvm svn)
+plugins=(most ant brew bundler cake cap extract gem git-flow git github node npm osx perl pip pow rails3 redis-cli ruby rvm svn)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -92,4 +92,4 @@ alias start-postgres='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgr
 alias stop-postgres='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
 
 # This loads RVM into a shell session.
-[[ -s "/Users/dharmesh/.rvm/scripts/rvm" ]] && source "/Users/dharmesh/.rvm/scripts/rvm"
+[[ -s "/Users/rik1shah/.rvm/scripts/rvm" ]] && source "/Users/rik1shah/.rvm/scripts/rvm"
